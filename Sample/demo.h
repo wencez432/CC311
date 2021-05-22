@@ -15,6 +15,9 @@ public:
     Demo(QWidget *parent = nullptr);
     ~Demo();
 
+private slots:
+    void on_btn_Close_clicked();
+
 private:
     Ui::Demo *ui;
 };
